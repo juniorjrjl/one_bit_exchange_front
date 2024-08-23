@@ -1,0 +1,19 @@
+services:
+  front:
+    build:
+      context: .
+    ports:
+    - '5173:5173'
+    volumes:
+    - .:/one_bit_exchange_front
+    command: bash start.sh
+    stdin_open: true
+    environment:
+      - VITE_API_BASE_PATH=http://localhost:3000/exchanges/
+    networks:
+      - one-bit-exchange-net
+
+networks:
+  one-bit-exchange-net:
+    name: one-bit-exchange-net
+    external: true
