@@ -1,5 +1,7 @@
 # Projeto frontend da api one_bit_exchange
-repositório da api: 
+repositório da api:
+
+https://github.com/juniorjrjl/one_bit_exchange
 
 ![technology Svelte](https://img.shields.io/badge/techonolgy-Svelte-orange)
 ![technology Typescript](https://img.shields.io/badge/techonolgy-Typescript-blue)
